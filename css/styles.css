@@ -1,0 +1,73 @@
+:root{
+    --moonlight-asteroid: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    --dawn: linear-gradient(to right, #F3904F, #3B4371);
+    --red-ocean: linear-gradient(to right, #1D4350, #A43931);
+    --cool-blues: linear-gradient(to right, #2193b0, #6dd5ed);
+    --by-desings: linear-gradient(to bottom, #009FFF, #ec2F4B);
+    --grade-grey: linear-gradient(to right, #2c3e50, #bdc3c7);
+    --serverQuick: linear-gradient(to bottom, #485563, #29323c);
+    --colorsOfSky: linear-gradient(to bottom, #E0EAFC, #E0EAFC);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding-top: 56px;
+    background: var(--serverQuick);
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 56px;
+}
+
+.main-nav{
+    background: var(--dawn);
+}
+
+.main-nav__item{
+    background: var(--red-ocean);
+}
+
+.row-bg{
+    background: var(--colorsOfSky);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 0.5em;
+    background: var(--by-desings);
+}
+
+.img-container{
+    margin-top: 2em;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.img-position{
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descripcion-position{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    background: var(--cool-blues);
+}
+
+.footer-bg{
+    background: var(--moonlight-asteroid);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
